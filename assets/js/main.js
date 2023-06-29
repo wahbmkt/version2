@@ -211,15 +211,29 @@
 			}
 		});
 		$(window).on('load', function() {
-			if ($('.preloader0').hasClass('preloader-deactivate')) {
+			$('.preloader').addClass('preloader-deactivate');
+			if ($('.preloader').hasClass('preloader-deactivate')) {
 				// $('.preloader').show()
 				
 
 			}else{
 
-				$('.preloader0').addClass('preloader-deactivate');
+				$('.preloader').addClass('preloader-deactivate');
 			}
 		});
+		$(window).on('beforeunload', function() {
+			$('.preloader').addClass('preloader-deactivate');
+			if ($('.preloader').hasClass('preloader-deactivate')) {
+				// $('.preloader').show()
+				
+				
+			}else{
+				$('.preloader').addClass('preloader-deactivate');
+
+			}
+		});
+
+		
 
 		
     }); // end document ready function
