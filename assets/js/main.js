@@ -212,7 +212,7 @@
 				
 				$('.preloader').addClass('preloader-deactivate');
 			});
-
+			$('.vec').hide(100).slideDown(2000);
 		// $(window).on('load', function() {
 		// 	$('.preloader').addClass('preloader-deactivate');
 		// 	// $('.preloader').fadeIn(5000,function () {
