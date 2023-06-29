@@ -211,13 +211,13 @@
 			}
 		});
 		$(window).on('load', function() {
-			if ($('.preloader').hasClass('preloader-deactivate')) {
+			if ($('.preloader0').hasClass('preloader-deactivate')) {
 				// $('.preloader').show()
 				
 
 			}else{
 
-				$('.preloader').addClass('preloader-deactivate');
+				$('.preloader0').addClass('preloader-deactivate');
 			}
 		});
 
