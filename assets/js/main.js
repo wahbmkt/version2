@@ -208,7 +208,7 @@
 		// });
 		// wow.init();
 
-			$('.preloader').fadeIn(2000,function () {
+			$('.preloader').delay(2000,function () {
 				
 				$('.preloader').addClass('preloader-deactivate');
 			});
