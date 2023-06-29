@@ -198,40 +198,36 @@
 			// console.log(window.getComputedStyle(this,':before').content);
 
 		});
-		$(window).on ('load', function (){
-			if ($(".wow").length) { 
-				var wow = new WOW({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       20,          // distance to the element when triggering the animation (default is 0)
-				mobile:       true, // trigger animations on mobile devices (default is true)
-				live:         true,       // act on asynchronously loaded content (default is true)
+		
+		// var wow = new WOW({
+		// 	boxClass: 'wow', // animated element css class (default is wow)
+		// 	animateClass: 'animated', // animation css class (default is animated)
+		// 	offset: 0, // distance to the element when triggering the animation (default is 0)
+		// 	mobile: true, // trigger animations on mobile devices (default is true)
+		// 	live: true // act on asynchronously loaded content (default is true)
+		// });
+		// wow.init();
+
+			$('.preloader').fadeIn(2000,function () {
+				
+				$('.preloader').addClass('preloader-deactivate');
 			});
-			wow.init();
-			}
-		});
-		$(window).on('load', function() {
-			$('.preloader').addClass('preloader-deactivate');
-			if ($('.preloader').hasClass('preloader-deactivate')) {
-				// $('.preloader').show()
+
+		// $(window).on('load', function() {
+		// 	$('.preloader').addClass('preloader-deactivate');
+		// 	// $('.preloader').fadeIn(5000,function () {
+					
+		// 		// })
 				
 
-			}else{
 
-				$('.preloader').addClass('preloader-deactivate');
-			}
-		});
-		$(window).on('beforeunload', function() {
-			$('.preloader').addClass('preloader-deactivate');
-			if ($('.preloader').hasClass('preloader-deactivate')) {
-				// $('.preloader').show()
-				
-				
-			}else{
-				$('.preloader').addClass('preloader-deactivate');
+		// });
 
-			}
-		});
+
+		// $(window).on('beforeunload', function() {
+		// 	$('.preloader').addClass('preloader-deactivate');
+			
+		// });
 
 		
 

@@ -95,9 +95,9 @@ body{
 }
 
 
-/* .preloader{
+.preloader{
     display: none;
-} */
+}
 
 
 @media  (max-width: 767px){

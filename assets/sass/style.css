@@ -1,21 +1,15 @@
 /*-------------------------------------------------------
 01. Variable css
 ---------------------------------------------------------*/
-/* @import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@400;500;600;700&family=Playfair+Display&display=swap"); */
-/* @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap"); */
-/* @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700&display=swap'); */
-
 @font-face {
   font-family: "Aref Ruqaa";
-  src: url('../wbfonts/Aref_Ruqaa/ArefRuqaa-Bold.ttf') format('truetype');
-  src: url('../wbfonts/Aref_Ruqaa/ArefRuqaa-Regular.ttf') format('truetype');
+  src: url("../wbfonts/Aref_Ruqaa/ArefRuqaa-Bold.ttf") format("truetype");
+  src: url("../wbfonts/Aref_Ruqaa/ArefRuqaa-Regular.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Changa";
-  src: url('../wbfonts/Changa/Changa-VariableFont_wght.ttf') format('truetype');
+  src: url("../wbfonts/Changa/Changa-VariableFont_wght.ttf") format("truetype");
 }
-/* font-family:  */
 :root {
   --clr-nav: #ffffff;
   --clr-heading: #232323;
@@ -1352,8 +1346,8 @@ label {
 .hero-single-2 .hero-content .hero-title {
   margin-bottom: 2rem;
   color: var(--clr-white);
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 45px;
+  line-height: 74px;
 }
 .hero-single-2 .hero-content p {
   padding-right: 15%;
@@ -2072,7 +2066,7 @@ body.rtl-mode .price-wpr {
 .hero-title span {
   color: var(--clr-def-2);
   font-family: var(--font-2);
-  font-weight: 200;
+  font-weight: 600;
   border-bottom: 3px solid var(--clr-def);
 }
 
@@ -2086,6 +2080,7 @@ body.rtl-mode .price-wpr {
   color: var(--clr-def);
   font-family: var(--font-2);
   font-weight: 200;
+  line-height: initial;
 }
 
 .hero-title-2 {
@@ -2339,14 +2334,12 @@ body.rtl-mode .price-wpr {
 .text-grad {
   background: var(--clr-gradient);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-grad-2 {
   background: var(--clr-gradient-2);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
