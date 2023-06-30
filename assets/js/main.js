@@ -86,7 +86,7 @@
 				640: {
 					slidesPerView: 1,
 					slidesPerColumn: 1,
-					spaceBetween: 20,
+					spaceBetween: 40,
 				},
 				768: {
 					slidesPerView: 2,
