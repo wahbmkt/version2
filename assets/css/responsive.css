@@ -12,7 +12,10 @@
 	.addr-box {
 		padding-right: 19rem !important;
 	}
+	.project-wpr{
 
+		padding: 72px;
+	}
 	.hero-single {
 		height: auto;
 		padding: 25vh 0;

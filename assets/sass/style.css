@@ -42,7 +42,7 @@
   --clr-gradient-2: radial-gradient(circle, rgba(187,11,245,1) 0%, rgba(0,213,157,1) 100%);
   --clr-gradient-3: radial-gradient(circle, rgba(245,11,118,1) 0%, rgba(0,213,157,1) 100%);
   --clr-gradient-4: radial-gradient(circle, rgba(11,77,245,1) 0%, rgba(203,0,213,1) 100%);
-  --clr-gradient-5: linear-gradient(to right, #0dbce3 0%, var(--clr-def) 100%);
+  --clr-gradient-5: linear-gradient(to left, #012f5c 0%, 20%, #024959 100%);
   --clr-gradient-6: radial-gradient(circle, var(--clr-bg) 0%, var(--clr-bg-2) 100%);
   --clr-overlay: rgba(5, 20, 65, 0.8);
   --box-shadow-1: 0 0 10px rgba(0, 0 , 0, .09);

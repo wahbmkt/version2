@@ -7,7 +7,17 @@
 		/* ==================================================
 			Preloader Init
 		===============================================*/
+		$('.service-box-2').on('mouseleave',function () {
+			$('.swiper-button-prev').css("color","#024959")
+			$('.swiper-button-next').css("color","#024959")
+		});
 
+		$('.service-box-2').on('mouseenter',function () {
+			$('.swiper-button-prev').css("color","#fff")
+			$('.swiper-button-next').css("color","#fff")
+			
+			
+		});
 
         var mybutton = document.getElementById("scrtop");
 
@@ -84,7 +94,7 @@
 					spaceBetween: 40,
 				},
 				1024: {
-					slidesPerView: 2,
+					slidesPerView: 3.5,
 					slidesPerColumn: 2,
 					spaceBetween: 30,
 				},
