@@ -2,13 +2,8 @@
 01. Variable css
 ---------------------------------------------------------*/
 @font-face {
-  font-family: "Aref Ruqaa";
-  src: url("../wbfonts/Aref_Ruqaa/ArefRuqaa-Bold.ttf") format("truetype");
-  src: url("../wbfonts/Aref_Ruqaa/ArefRuqaa-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Changa";
-  src: url("../wbfonts/Changa/Changa-VariableFont_wght.ttf") format("truetype");
+  font-family: "Harmattan";
+  src: url("wbf/Harmattan/Harmattan-Regular.ttf") format("truetype");
 }
 :root {
   --clr-nav: #ffffff;
@@ -24,8 +19,8 @@
   --clr-white: #fff;
   --clr-black: #000;
   --clr-black-2: #080821;
-  --font-2: "Changa", sans-serif;
-  --font-1: "Aref Ruqaa", serif;
+  --font-2: "Harmattan", sans-serif;
+  --font-1: "Harmattan", sans-serif;
   --font-3: "Shadows Into Light", cursive;
   --font-4: "Roboto", sans-serif;
   --font-5: "Oswald", sans-serif;
@@ -1673,7 +1668,6 @@ label {
   font-size: 18px;
   /* border: 1px solid #ddd; */
   /* outline: none; */
-  background-color: var(--clr-def);
   color: var(--clr-white);
   cursor: pointer;
   /* padding: 15px; */
@@ -1759,7 +1753,7 @@ label {
   margin-bottom: 0;
 }
 .navbar.in .navbar-nav .nav-item .nav-link {
-  color: var(--clr-heading);
+  color: white;
 }
 
 .nav-item.dropdown > .navbar-nav {
@@ -2338,7 +2332,6 @@ body.rtl-mode .price-wpr {
 }
 
 .text-grad-2 {
-  background: var(--clr-gradient-2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2829,6 +2822,7 @@ body.rtl-mode .price-wpr {
 }
 .review-single .qoute-icon {
   margin-bottom: 3rem;
+  width: 12%;
 }
 .review-single .review-text {
   color: #67687a;

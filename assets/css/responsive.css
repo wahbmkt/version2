@@ -920,7 +920,7 @@
 		background-image: var(--clr-gradient-5);
 	}
 	.nav-link{
-		font-size: 2.5rem !important;
+		font-size: 3.5rem !important;
 		color: #fff !important;
 	}
 	/*	Padding*/
@@ -1010,7 +1010,9 @@
 		height: inherit;
 		line-height: 50px;
 		padding: 0;
-		margin-right: 0;
+		margin-right: 10px;
+		/* font-size: 5rem; */
+		/* margin-right: 0; */
 	}
 	
 	.bsnav-mobile .navbar-nav .nav-item .navbar-nav {

@@ -114,7 +114,7 @@
 				640: {
 					slidesPerView: 2,
 					slidesPerColumn: 2,
-					spaceBetween: 30,
+					// spaceBetween: 50,
 				},
 				768: {
 					slidesPerView: 2,
@@ -238,6 +238,15 @@
 		// 	$('.preloader').addClass('preloader-deactivate');
 			
 		// });
+		// let pp = $('.service-desc-2 p');
+		$('.c-green').on('click',function () {
+			if ($(this).siblings('p').hasClass('show')) {
+				$(this).siblings('p').removeClass('show')
+			}else{
+
+				$(this).siblings('p').addClass('show');
+			}
+		})
 
 		
 
