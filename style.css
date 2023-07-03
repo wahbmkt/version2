@@ -40,6 +40,7 @@ body{
     }
     .c-green{
         cursor: pointer;
+        margin-top:10px ;
     }
     .c-green:focus{
 
@@ -309,3 +310,24 @@ color: #fff !important;
 .show{
     display: block !important;
 }
+.ts{
+    flex-wrap: nowrap;
+    display: flex;
+    white-space: nowrap;
+    /* text-wrap: nowrap; */
+    padding-left: 16px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.socials i{
+    margin: auto 2px;
+    color: white;
+}
+.socials :last-child{
+/* color: red; */
+margin-right: 20px;
+
+}
+.socials {
+margin: auto;}

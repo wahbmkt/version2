@@ -118,8 +118,9 @@
 		display: none;
 	}
 	
-	.navbar.bsnav-transparent .navbar-nav .nav-item .nav-link {
-		margin-right: 3rem;
+	.navbar-nav.navbar-mobile  {
+		/* margin-right: 3rem; */
+		margin-left :15%;
 	}
 
 	/*	Hero 2*/
