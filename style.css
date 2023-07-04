@@ -447,3 +447,13 @@ margin: auto;}
     animation:         fadeInLeft         1.5s 0.8s forwards;
 
 }
+.swiper-button-prev:hover ,
+.swiper-button-next:hover {
+    color: #9dcf94 !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    /* content:"\f053" !important; */
+    font-weight: bolder !important;
+
+}
