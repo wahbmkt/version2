@@ -121,6 +121,35 @@ body{
     width: 21%;
     transform: translateX(-50%);
 }
+.nav-item:hover .nav-link{
+    color:#9dcf94 !important ;
+}
+.nav-item:hover ::before{
+    content: "";
+    position: absolute;
+    
+    /* transition: all 0.9s; */
+    width: 100%;
+    animation: up5 0.3s  ease-in  forwards;
+    bottom: 0px;
+    height: 1px;
+    background-color: #9dcf949c !important;
+    
+}
+@keyframes up5 {
+    0%{
+        opacity: 0;
+        
+        top: 72px;
+    }
+    100%{
+        opacity: 1;
+        /* transform: translateY(-30px);
+         */
+         top: 62px;
+    }
+    
+}
 .nav-link{
     /* pointer-events: none; */
     cursor: pointer;
