@@ -246,9 +246,13 @@
 
 				$(this).siblings('p').addClass('show');
 			}
-		})
-
-		
+		});
+		// $('.ani2').();
+		// $('.ani').delay(100000).css({
+		// 	"opacity": "1",
+		// 	"position": "relative",
+		// 	"right":  "0%",
+		// })
 
 		
     }); // end document ready function

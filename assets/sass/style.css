@@ -1151,7 +1151,7 @@ label {
   font-size: 16px;
   font-weight: 700;
   padding: 2.5rem 5.5rem;
-  background-color: var(--clr-def);
+  background-color: #9dcf94;
   color: var(--clr-white);
   border-radius: 5px;
   border: none;
@@ -1274,6 +1274,56 @@ label {
   background-color: var(--clr-def);
   border-radius: 2px;
   outline: none;
+}
+
+.theme-btn {
+  background-color: #012f5c;
+}
+
+.theme-btn-s2 {
+  background-color: #9dcf94;
+}
+
+.btns a {
+  font-size: 16px;
+  font-size: calc-rem-value(16);
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.btns a:after {
+  font-family: "FontAwesome";
+  content: "\f0d9";
+  margin: 0px 10px 0px 10px;
+}
+@media (max-width: 1199px) {
+  .btns a {
+    font-size: 14px;
+    font-size: calc-rem-value(14);
+  }
+}
+@media (max-width: 767px) {
+  .btns a {
+    padding: 10px 20px;
+  }
+}
+
+.btns i {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.btns a:last-child {
+  margin-bottom: 0;
+}
+
+.btns a:hover {
+  background-color: #9dcf94;
+  color: white;
+}
+.btns a:hover i {
+  color: #9dcf94;
 }
 
 /*10*/
@@ -1957,6 +2007,7 @@ body.rtl-mode .price-wpr {
 @media (min-width: 992px) {
   body.rtl-mode .navbar-brand {
     margin-left: 3rem;
+    margin-right: 8rem;
   }
   body.rtl-mode .navbar .nav-item .nav-link {
     margin-left: 3rem;

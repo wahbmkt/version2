@@ -1,3 +1,43 @@
+.ani2{
+    opacity: 0;
+    animation: sh2 2s 1s ease   forwards;
+}
+@keyframes sh2 {
+    0%{
+
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(10px);
+
+    }
+
+    
+}
+.ani,
+.ani-p,
+.ani-p1,
+.ani-p2,
+.ani-ul,
+.ani-ptn{
+    opacity: 0;
+    /* position: relative; */
+    /* left:  10%; */
+    animation-name:sh ;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes sh {
+    100%{
+        opacity: 1;
+        /* position: relative; */
+        /* right: 100%; */
+        /* transform: translateX(100%); */
+
+    }
+    
+}
 /*Write your Own Css Here*/
 
 body{
@@ -110,7 +150,12 @@ body{
     .hero-sub-title.mb-20{
         padding-top: 10%;
     }
-
+    .navbar-nav li:last-child{
+        margin-top: 10%;
+    }
+    .navbar .navbar-brand img {
+        width: 10rem;}
+        
 
 
 .service-box-2{
@@ -140,7 +185,7 @@ body{
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
-.animateup{
+.animateup0{
     animation-name: updown;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -324,6 +369,9 @@ color: #fff !important;
     margin: auto 2px;
     color: white;
 }
+.socials i::before{
+    font-size: small;
+}
 .socials :last-child{
 /* color: red; */
 margin-right: 30px;
@@ -334,4 +382,39 @@ margin: auto;}
 
 .review-bio .heading-4{
     color: #003c5b !important;
+}
+
+.ani-ptn{
+    /* visibility: visible 
+    ; */
+    -webkit-animation: fadeInRight 1.5s 0.8s forwards;
+    -moz-animation: fadeInRight    1.5s 0.8s forwards;
+    -o-animation: fadeInRight      1.5s 0.8s forwards;
+    -ms-animation: fadeInRight     1.5s 0.8s forwards;
+    animation: fadeInRight         1.5s 0.8s forwards;
+}
+.ani-p2{
+    /* visibility: visible !important; */
+    -webkit-animation: fadeInRight 1.5s 0.8s forwards;
+    -moz-animation: fadeInRight    1.5s 0.8s forwards;
+    -o-animation: fadeInRight      1.5s 0.8s forwards;
+    -ms-animation: fadeInRight     1.5s 0.8s forwards;
+    animation: fadeInRight         1.5s 0.8s forwards;
+
+}
+.ani-p{
+    /* visibility: visible !important; */
+    -webkit-animation: fadeInRight 1.5s  0.4s forwards;
+    -moz-animation: fadeInRight 1.5s 0.4s forwards;
+    -o-animation: fadeInRight 1.5s 0.4s forwards;
+    -ms-animation: fadeInRight 1.5s 0.4s forwards;
+    animation: fadeInRight 1.5s 0.4s forwards;
+}
+.ani-ul{
+    -webkit-animation: fadeInLeft 1.5s 0.8s forwards;
+    -moz-animation:    fadeInLeft    1.5s 0.8s forwards;
+    -o-animation:      fadeInLeft      1.5s 0.8s forwards;
+    -ms-animation:     fadeInLeft     1.5s 0.8s forwards;
+    animation:         fadeInLeft         1.5s 0.8s forwards;
+
 }
