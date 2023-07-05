@@ -74,8 +74,8 @@
   height: 10rem;
 }
 .preloader-w .progress-bar {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   /* to center the percentage value */
   display: flex;
@@ -87,7 +87,7 @@
   content: "";
 }
 .preloader-w .preloader {
-  background: radial-gradient(closest-side, #003e5b 79%, transparent 80% 100%), conic-gradient(#15BD6F calc(var(--progress-value) * 1%), white 0);
+  background: radial-gradient(closest-side, #003e5b 90%, transparent 80% 100%), conic-gradient(#15BD6F calc(var(--progress-value) * 1%), white 0);
   animation: html-progress 1.5s 1 forwards;
 }
 .preloader-w .preloader::before {

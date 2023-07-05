@@ -461,3 +461,8 @@ margin: auto;}
 .hero-single-2{
     padding-bottom: 10px !important;
 }
+.preloader-w img {
+    
+    position: absolute;
+    transform: translate(-5px, -4px);
+}
