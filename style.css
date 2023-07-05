@@ -1,6 +1,6 @@
 .ani2{
     opacity: 0;
-    animation: sh2 2s 1s ease   forwards;
+    animation: sh2 2s 1.5s ease   forwards;
 }
 @keyframes sh2 {
     0%{
@@ -26,6 +26,7 @@
     /* left:  10%; */
     animation-name:sh ;
     animation-duration: 0.5s;
+    animation-delay:1.5s ;
     animation-fill-mode: forwards;
 }
 @keyframes sh {
@@ -416,44 +417,47 @@ margin: auto;}
 .ani-ptn{
     /* visibility: visible 
     ; */
-    -webkit-animation: fadeInRight 1.5s 0.8s forwards;
-    -moz-animation: fadeInRight    1.5s 0.8s forwards;
-    -o-animation: fadeInRight      1.5s 0.8s forwards;
-    -ms-animation: fadeInRight     1.5s 0.8s forwards;
-    animation: fadeInRight         1.5s 0.8s forwards;
+    -webkit-animation: fadeInRight 1.5s 2.5s forwards;
+    -moz-animation: fadeInRight    1.5s 2.5s forwards;
+    -o-animation: fadeInRight      1.5s 2.5s forwards;
+    -ms-animation: fadeInRight     1.5s 2.5s forwards;
+    animation: fadeInRight         1.5s 2.5s forwards;
 }
 .ani-p2{
     /* visibility: visible !important; */
-    -webkit-animation: fadeInRight 1.5s 0.8s forwards;
-    -moz-animation: fadeInRight    1.5s 0.8s forwards;
-    -o-animation: fadeInRight      1.5s 0.8s forwards;
-    -ms-animation: fadeInRight     1.5s 0.8s forwards;
-    animation: fadeInRight         1.5s 0.8s forwards;
+    -webkit-animation: fadeInRight 1.5s 2.3s forwards;
+    -moz-animation: fadeInRight    1.5s 2.3s forwards;
+    -o-animation: fadeInRight      1.5s 2.3s forwards;
+    -ms-animation: fadeInRight     1.5s 2.3s forwards;
+    animation: fadeInRight         1.5s 2.3s forwards;
 
 }
 .ani-p{
     /* visibility: visible !important; */
-    -webkit-animation: fadeInRight 1.5s  0.4s forwards;
-    -moz-animation: fadeInRight 1.5s 0.4s forwards;
-    -o-animation: fadeInRight 1.5s 0.4s forwards;
-    -ms-animation: fadeInRight 1.5s 0.4s forwards;
-    animation: fadeInRight 1.5s 0.4s forwards;
+    -webkit-animation: fadeInRight 1.5s 2s forwards;
+    -moz-animation: fadeInRight    1.5s 2s forwards;
+    -o-animation: fadeInRight      1.5s 2s forwards;
+    -ms-animation: fadeInRight     1.5s 2s forwards;
+    animation: fadeInRight         1.5s 2s forwards;
 }
 .ani-ul{
-    -webkit-animation: fadeInLeft 1.5s 0.8s forwards;
-    -moz-animation:    fadeInLeft    1.5s 0.8s forwards;
-    -o-animation:      fadeInLeft      1.5s 0.8s forwards;
-    -ms-animation:     fadeInLeft     1.5s 0.8s forwards;
-    animation:         fadeInLeft         1.5s 0.8s forwards;
+    -webkit-animation: fadeInLeft     1.5s 2.3s forwards;
+    -moz-animation:    fadeInLeft     1.5s 2.3s forwards;
+    -o-animation:      fadeInLeft     1.5s 2.3s forwards;
+    -ms-animation:     fadeInLeft     1.5s 2.3s forwards;
+    animation:         fadeInLeft     1.5s 2.3s forwards;
 
 }
 .swiper-button-prev:hover ,
 .swiper-button-next:hover {
-    color: #9dcf94 !important;
+    color: #3add1e !important;
 }
 .swiper-button-prev::after,
 .swiper-button-next::after{
     /* content:"\f053" !important; */
     font-weight: bolder !important;
 
+}
+.hero-single-2{
+    padding-bottom: 10px !important;
 }

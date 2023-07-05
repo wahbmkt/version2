@@ -162,7 +162,40 @@
 				},
 			},
 		});
-		
+		const swiperStageRigh = new Swiper(".review-sldr0", {
+			// Optional parameters
+			loop: true,
+			// autoplay: {
+			// 	delay: 6000,
+			// 	// deura
+			// },
+			freeMode: true,
+			grabCursor: true,
+			// slidesPerView: 1,
+			// spaceBetween: 30,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			// Navigation arrows
+			navigation: {
+				nextEl: ".swiper-button-prev",
+				prevEl: ".swiper-button-next"
+			},
+			breakpoints: {
+				768: {
+					slidesPerView: 1,
+				},
+				1201: {
+					slidesPerView: 1,
+				},
+				1300: {
+					slidesPerView: 1,
+				},
+			},
+		});
+		$('.left-hdr-pic').height("+="+"150px");
+		$('.left-hdr-pic .swiper-wrapper').height("+="+"150px");
 		/* ==================================================
 			# Review Slider
 		 ===============================================*/
@@ -209,26 +242,9 @@
 
 		});
 		
-		// var wow = new WOW({
-		// 	boxClass: 'wow', // animated element css class (default is wow)
-		// 	animateClass: 'animated', // animation css class (default is animated)
-		// 	offset: 0, // distance to the element when triggering the animation (default is 0)
-		// 	mobile: true, // trigger animations on mobile devices (default is true)
-		// 	live: true // act on asynchronously loaded content (default is true)
-		// });
-		// wow.init();
+	
 
-			$('.preloader').delay(2000,function () {
-				
-				$('.preloader').addClass('preloader-deactivate');
-			});
-			$('.vec').hide(100).slideDown(2000);
-		// $(window).on('load', function() {
-		// 	$('.preloader').addClass('preloader-deactivate');
-		// 	// $('.preloader').fadeIn(5000,function () {
-					
-		// 		// })
-				
+			$('.preloader-w').addClass('preloader-deactivate');
 
 
 		// });
