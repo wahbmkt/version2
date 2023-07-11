@@ -1318,12 +1318,11 @@ label {
 }
 .hero-single-2 .hero-content p {
   padding-right: 15%;
-  color: var(--clr-white);
+  color: #27ed45;
 }
 
 .left-hdr-pic .vector-2 {
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
   width: 90%;
 }
 .left-hdr-pic .vector-3 {
