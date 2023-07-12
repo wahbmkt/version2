@@ -897,6 +897,15 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+	.project-wpr5{
+		display: flex;
+		/* flex-direction: column; */
+		flex-wrap: wrap;
+		gap: 19px;
+		justify-content: center;
+	}.project-wpr5 .swiper-slide{
+		width: 100% !important;
+	}
 	.pt-s-5 img{
 		margin-top: 9rem;
 	}

@@ -2613,6 +2613,10 @@ body.rtl-mode .price-wpr {
 }
 .service-box-2 .service-desc-2 .heading-4 {
   margin-bottom: 3rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .service-shape-16 {

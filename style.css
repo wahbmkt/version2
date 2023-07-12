@@ -244,7 +244,7 @@ body{
 .service-desc-2 h4:after {
     content: "";
     background-color: #9dcf94;
-    width: 45px;
+    width: 95%;
     height: 4px;
     display: block;
     border-radius: 5px;
