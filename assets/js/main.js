@@ -143,7 +143,7 @@
 			// Optional parameters
 			loop: true,
 			autoplay: {
-				delay: 4000,
+				delay: 400000,
 				// deura
 			},
 			freeMode: true,
@@ -171,38 +171,38 @@
 				},
 			},
 		});
-		const swiperStageRigh = new Swiper(".review-sldr0", {
-			// Optional parameters
-			loop: true,
-			// autoplay: {
-			// 	delay: 6000,
-			// 	// deura
-			// },
-			freeMode: true,
-			grabCursor: true,
-			// slidesPerView: 1,
-			// spaceBetween: 30,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			// Navigation arrows
-			navigation: {
-				nextEl: ".swiper-button-prev",
-				prevEl: ".swiper-button-next"
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 1,
-				},
-				1201: {
-					slidesPerView: 1,
-				},
-				1300: {
-					slidesPerView: 1,
-				},
-			},
-		});
+		// const swiperStageRigh = new Swiper(".review-sldr0", {
+		// 	// Optional parameters
+		// 	loop: true,
+		// 	// autoplay: {
+		// 	// 	delay: 6000,
+		// 	// 	// deura
+		// 	// },
+		// 	freeMode: true,
+		// 	grabCursor: true,
+		// 	// slidesPerView: 1,
+		// 	// spaceBetween: 30,
+		// 	pagination: {
+		// 		el: ".swiper-pagination",
+		// 		clickable: true,
+		// 	},
+		// 	// Navigation arrows
+		// 	navigation: {
+		// 		nextEl: ".swiper-button-prev",
+		// 		prevEl: ".swiper-button-next"
+		// 	},
+		// 	breakpoints: {
+		// 		768: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 		1201: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 		1300: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 	},
+		// });
 		$('.left-hdr-pic').height("+="+"150px");
 		$('.left-hdr-pic .swiper-wrapper').height("+="+"150px");
 		/* ==================================================
@@ -264,14 +264,20 @@
 			
 		// });
 		// let pp = $('.service-desc-2 p');
-		$('.c-green').on('click',function () {
-			if ($(this).siblings('p').hasClass('show')) {
-				$(this).siblings('p').removeClass('show')
-			}else{
 
-				$(this).siblings('p').addClass('show');
-			}
-		});
+
+
+		// $('.c-green').on('click',function () {
+		// 	if ($(this).siblings('p').hasClass('show')) {
+		// 		$(this).siblings('p').removeClass('show')
+		// 	}else{
+
+		// 		$(this).siblings('p').addClass('show');
+		// 	}
+		// });
+
+
+		
 		// $('.ani2').();
 		// $('.ani').delay(100000).css({
 		// 	"opacity": "1",
