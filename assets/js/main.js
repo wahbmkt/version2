@@ -171,38 +171,7 @@
 				},
 			},
 		});
-		// const swiperStageRigh = new Swiper(".review-sldr0", {
-		// 	// Optional parameters
-		// 	loop: true,
-		// 	// autoplay: {
-		// 	// 	delay: 6000,
-		// 	// 	// deura
-		// 	// },
-		// 	freeMode: true,
-		// 	grabCursor: true,
-		// 	// slidesPerView: 1,
-		// 	// spaceBetween: 30,
-		// 	pagination: {
-		// 		el: ".swiper-pagination",
-		// 		clickable: true,
-		// 	},
-		// 	// Navigation arrows
-		// 	navigation: {
-		// 		nextEl: ".swiper-button-prev",
-		// 		prevEl: ".swiper-button-next"
-		// 	},
-		// 	breakpoints: {
-		// 		768: {
-		// 			slidesPerView: 1,
-		// 		},
-		// 		1201: {
-		// 			slidesPerView: 1,
-		// 		},
-		// 		1300: {
-		// 			slidesPerView: 1,
-		// 		},
-		// 	},
-		// });
+	
 		$('.left-hdr-pic').height("+="+"150px");
 		$('.left-hdr-pic .swiper-wrapper').height("+="+"150px");
 		/* ==================================================
@@ -222,32 +191,12 @@
 		});
 		
 		$('.btn-1.btn-circle.btn-sm').on('click',function(){
-		
-			// $(this).togo
-			// .css("height","10px")
 			if (!$(this).prev().hasClass("show-more")) {
 				
-				// $(this).prev().css(
-				// 	{
-				// 		"display":"block",
-				// 		"background-color":"white"
-				// 	}
-				// 	);
 					$(this).prev().addClass("show-more");
 			}else{
 				$(this).prev().removeClass("show-more");
-				// $(this).prev().css(
-				// 	{
-				// 	"display":"none",
-				// 	}
-				// 	);
 			}
-			// $img = $(this).parent(".service-desc-2");
-			// $img.css("display","none");
-			// console.log(
-			
-			// );
-			// console.log(window.getComputedStyle(this,':before').content);
 
 		});
 		

@@ -188,12 +188,9 @@ body{
         
 
 
-.service-box-2{
-    /* background-color: #f0f8ff8a;
-    border: 1px solid #d9d9d9;
-    border-radius: 5px; */
-    margin: 0px 50px;
-}
+    .service-box-2{
+        margin: 0px 50px;
+    }
     .about-left-2-pic img {
         border-radius: 2rem;
         padding-top: 8rem;
@@ -206,9 +203,7 @@ body{
         
     }
     .bsnav-mobile .navbar {
-        padding: 127px 0 15px !important; }
-    .bsnav-mobile .navbar .content{
-        display: none;
+        padding: 127px 0 15px !important; 
     }
     .bsnav-mobile.in .navbar-nav {
         row-gap: 12px;
@@ -218,10 +213,12 @@ body{
         display: flex;
         column-gap: 16px;
         justify-content: center;
-    }.bsnav-mobile.in .content a{
+    }
+    .bsnav-mobile.in .content a{
         color: bisque;
     }
-            /* padding: 127px 0 15px !important; } */
+        /* padding: 127px 0 15px !important; } */
+    
     
 }
 .bsnav-mobile.in .navbar {
@@ -469,7 +466,7 @@ margin: auto;}
 }
 .swiper-button-prev:hover ,
 .swiper-button-next:hover {
-    color: #3add1e !important;
+    color: var(--clr-def1) !important;
 }
 .swiper-button-prev::after,
 .swiper-button-next::after{
@@ -494,4 +491,7 @@ margin: auto;}
 }.about-wpr p {
     font-size: 21px;
 
+}
+.navbar .content{
+    display: none;
 }
