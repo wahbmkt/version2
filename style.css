@@ -423,7 +423,7 @@ color: #fff !important;
 }
 .socials :last-child{
 /* color: red; */
-margin-right: 30px;
+/* margin-right: 10px; */
 
 }
 .socials {
@@ -497,4 +497,6 @@ margin: auto;}
 }
 .navbar .content{
     display: none;
-}
+}    
+.bsnav-mobile.in .socials{
+    display: none !important;}
