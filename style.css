@@ -173,6 +173,9 @@ body{
 /* } */
 
 
+.app-user {
+    margin-top: 0px !important;
+}
 @media  (max-width: 767px){
     .service-desc-2 .icon {
         margin: 60px auto 82px;
@@ -193,7 +196,7 @@ body{
     }
     .about-left-2-pic img {
         border-radius: 2rem;
-        padding-top: 8rem;
+        padding-top: 9rem;
     }
     
     .bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-brand img {
