@@ -76,7 +76,7 @@
 		var swiper = new Swiper('.project-sldr', {
 			loop: true,
 			autoplay: {
-				delay: 5000,
+				delay: 500000,
 			},
 			pagination: {
 				el: ".swiper-pagination",

@@ -1504,12 +1504,8 @@ label {
   display: flex;
   gap: 2rem;
   align-items: center;
-  background: #002343;
   padding: 2rem;
   border-radius: 2rem;
-}
-.footer-recent-post-single .recent-post-pic img {
-  border-radius: 50%;
 }
 .footer-recent-post-single .recent-post-desc h5 {
   color: var(--clr-ccc);
