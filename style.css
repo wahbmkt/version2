@@ -421,11 +421,11 @@ color: #fff !important;
 .socials i::before{
     font-size: small;
 }
-.socials :last-child{
+/* .socials :last-child{ */
 /* color: red; */
 /* margin-right: 10px; */
 
-}
+/* } */
 .socials {
 margin: auto;}
 
@@ -486,8 +486,8 @@ margin: auto;}
     transform: translate(-5px, -4px);
 }
 .swiper-pagination-bullet-active{
-    background-color: #5fc74d !important;
-    color: #5fc74d !important;
+    background-color: var(--clr-def1) !important;
+    color: var(--clr-def1) !important;
 }
 .site-title h2{
     color: var(--clr-def);

@@ -1564,6 +1564,7 @@ label {
   height: 60px;
   display: block;
 }
+
 .footer-list li a {
   color: var(--clr-ccc);
 }
@@ -1657,7 +1658,7 @@ label {
   background-color: var(--clr-heading);
 }
 #scrtop img {
-  border-radius: 1rem;
+  border-radius: 50%;
 }
 
 /*13*/
@@ -2808,7 +2809,7 @@ body.rtl-mode .price-wpr {
 }
 .review-single .review-text {
   color: #67687a;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 35px;
   margin-bottom: 40px;
   padding-bottom: 30px;
