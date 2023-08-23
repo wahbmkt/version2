@@ -34,46 +34,8 @@
 
 
 		
-		$(".typed").typed({
-			strings: [" لخدمات التسويق الالكتروني"],
-			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-			stringsElement: null,
-			// typing speed
-			typeSpeed: 100,
-			// time before typing starts
-			startDelay: 1200,
-			// backspacing speed
-			backSpeed: 10,
-			// time before backspacing
-			backDelay: 600,
-			// loop
-			loop: true,
-			// false = infinite
-			loopCount: Infinity,
-			// show cursor
-			showCursor: false,
-			// character for cursor
-			cursorChar: "|",
-			// attribute to type (null == text)
-			attr: null,
-			// either html or text
-			contentType: 'html',
-			// call when done callback function
-			callback: function() {},
-			// starting callback function before each string
-			preStringTyped: function() {},
-			//callback for every typed string
-			onStringTyped: function() {},
-			// callback for reset
-			resetCallback: function() {}
-		});
-
-
-
-
 		
-		
-		var swiper = new Swiper('.project-sldr', {
+		var swiper = new Swiper('.ser-sldr', {
 			loop: true,
 			autoplay: {
 				delay: 500000,
@@ -83,8 +45,9 @@
 				clickable: true,
 			},
 			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
+				nextEl: ".swiper-button-next.pro",
+				prevEl: ".swiper-button-prev.pro",
+				nested:true,
 			},
 			breakpoints: {
 				640: {
@@ -143,11 +106,11 @@
 			// Optional parameters
 			loop: true,
 			autoplay: {
-				delay: 400000,
+				delay: 4000,
 				// deura
 			},
-			freeMode: true,
-			grabCursor: true,
+			// freeMode: true,
+			// grabCursor: true,
 			// slidesPerView: 1,
 			// spaceBetween: 30,
 			pagination: {
@@ -156,8 +119,8 @@
 			},
 			// Navigation arrows
 			navigation: {
-				nextEl: ".swiper-button-prev",
-				prevEl: ".swiper-button-next"
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev"
 			},
 			breakpoints: {
 				768: {

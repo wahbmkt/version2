@@ -46,6 +46,29 @@
 		padding-left:  50px;
 	}
 </style>
+<style>
+	.swiper-b{
+	left: 0px !important;
+	right: 0px ;
+	height: 100%;
+	top: 0px;
+	background-color: white;
+}.swiper-b.r0{
+	right: 0px !important;
+}
+</style>
+<style>
+	.service-pic-2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.service-pic-2 img{
+		object-fit: cover;
+		max-width: 27rem;
+		
+		border-radius: 50%;}
+</style>
 	
 <div class="preloader-w">
 	<img src="assets/img/logo/wh.webp" class="logo-display" alt="thumb">
@@ -202,9 +225,8 @@
 		</div>
 
 			<!--   خدماتنا    -->
-		<div id="ser-area" class="project-area  de-padding">
+		<div  class="project-area  de-padding">
 			<div class="container">
-				
 				<div class="row">
 					<div class="col-xl-11 offset-xl-3">
 						
@@ -213,8 +235,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="project-wpr">
-					<div class="swiper project-sldr " style="    padding-top: 4rem !important;padding-bottom: 4rem !important;">  
+
+				<div class="ser-wpr">
+					<div class="ser-sldr swiper " style="    padding-top: 4rem !important;padding-bottom: 4rem !important;">  
 						<div class="swiper-wrapper">
 
 
@@ -622,41 +645,15 @@
 								</div>
 							</div> 
 						</div>
-						<div class="swiper-button-next swiper-b"></div>
-						<div class="swiper-button-prev swiper-b r0" ></div>
 						<div class="swiper-pagination" style="margin-bottom: 0px;"></div>
+						<div class="swiper-button-next pro swiper-b"></div>
+						<div class="swiper-button-prev pro swiper-b r0" ></div>
 					</div>
 				</div>
-					<style>
-						.swiper-b{
-						left: 0px !important;
-						right: 0px ;
-						height: 100%;
-						top: 0px;
-						background-color: white;
-					}.swiper-b.r0{
-						right: 0px !important;
-					}
-					</style>
 			</div>
 		</div>
-		<style>
-			.service-pic-2{
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-			.service-pic-2 img{
-				object-fit: cover;
-				max-width: 27rem;
-				
-				border-radius: 50%;}
-		</style>
-			
 			<!--   قيمنا    -->
 		<div class="review-area de-padding pos-rel">
-			<!-- <span class="review-wavy"></span> -->
-			<!-- <img src="assets/img/shape/shape-1.webp" class="review-shape-1" alt="no image"> -->
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-11">
@@ -670,7 +667,7 @@
 				<img src="assets/img/bg/bg-review-1.webp" alt="no image" class="review-shape round-move">
 				<div class="row">
 					<div class="col-xl-12">
-						<div class="review-wpr review-sldr swiper">
+						<div class="review-sldr swiper">
 							<!-- Additional required wrapper -->
 							<div class="swiper-wrapper">
 								<!-- Single Item -->
@@ -788,10 +785,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			</div>        
 		</div>
+
+
+
+
+
+
 
 			<!-- عملائنا -->
 		<div id="ser-area" class="project-area  de-padding">
