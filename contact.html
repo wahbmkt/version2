@@ -107,7 +107,39 @@
 	
 	<main class="main ">
         
+		<div id="form-success"
+		style="
+		position: fixed;
+		display: none;
+		
+		justify-content: center;
+		justify-items: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		background-color: #414548a1;
+		z-index: 100;
+		"
+		>
+			<div class="card " id="thnx-card"
+			style="
+			display: none;
+			/* align-self: center; */
+			/* justify-self: center; */
+			padding: 20px 30px;
+			z-index: 1001;
+			"
+			>
+			<h5>
+				شكرا لتواصلكم معناء
+			</h5>
+			<div class="btns">
 
+				<button id="close-thnx-card" style="padding: 5px 15px;" class="btn btn-primary">تم  </button>
+			</div>
+			</div>
+
+		</div>
         
 		<div class="contact-area white-overlay" style="background-image: url(assets/img/dot/dots.webp);margin-top: 11rem;">
 			<div class="container" >
@@ -124,11 +156,14 @@
 				</div>
 				<div class="contact-wpr grid-2">
 					<div class="contact-left contact-home vec">
-						<form action="assets/mail/contact.php" method="post" class="contact-form">
+
+
+
+						<form id="contact-form1" method="POST" class="contact-form">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control input-style-2" id="name" name="name" placeholder="الاسم بالكامل">
+										<input type="text" class="form-control input-style-2" id="name" name="full_name" placeholder="الاسم بالكامل">
 										<span class="alert alert-error"></span>
 									</div>
 								</div>
@@ -147,14 +182,14 @@
 						
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="text" class="form-control input-style-2" id="subject" name="subject" placeholder="العنوان">
+										<input type="text" class="form-control input-style-2" id="subject" name="address" placeholder="العنوان">
 										<span class="alert alert-error"></span>
 									</div>
 								</div>
 								<div class="col-md-12">
-									<textarea class="form-control input-style-2" id="comment" name="comments" placeholder="الرسالة..."></textarea>
+									<textarea class="form-control input-style-2" id="comment" name="msg" placeholder="الرسالة..."></textarea>
 									<div class="contact-sub-btn text-center">
-										<button type="submit" name="submit" id="submit" class="btn-submit ">
+										<button type="submit" name="submit" id="contact-form1-submit" class="btn-submit ">
 											ارسال
 											<i class="fas fa-chevron-left"></i>
 										</button>
@@ -299,7 +334,6 @@
 		<!-- End Google Tag Manager (noscript) -->
 		
 	<script src="assets/js/jquery-3.6.0.min.js"></script>
-	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
 	<script src="assets/js/bsnav.min.js"></script>
 	<script src=" assets/js/wow.min.js"></script>
 	<script src=" assets/js/count-to.js"></script>

@@ -165,38 +165,32 @@
 		
 	
 
-			$('.preloader-w').addClass('preloader-deactivate');
+		$('.preloader-w').addClass('preloader-deactivate');
 
-
-		// });
-
-
-		// $(window).on('beforeunload', function() {
-		// 	$('.preloader').addClass('preloader-deactivate');
+		// $('#contact-form1').on
+		let data_form = document.getElementById("contact-form1");
+		data_form.addEventListener('submit', (e) =>{
+			e.preventDefault();
 			
-		// });
-		// let pp = $('.service-desc-2 p');
 
+			let a = $.post( 'https://qarisoft.co/api/whb',$( "#contact-form1" ).serialize());
+			console.log(a)
+			document.getElementById("contact-form1").reset();
+			$('#form-success').show();
+			$('#form-success').css("display","flex");
+			
+			$('#thnx-card').slideDown();
+			
+			// e.target.action='https://qarisoft.co/api/whb'
+			// location.reload();
+			
+		});
+		$('#close-thnx-card').on('click',()=>{
+			$('#thnx-card').slideUp();
 
+			$('#form-success').hide('slow');
+			// location.reload()
+		})
 
-		// $('.c-green').on('click',function () {
-		// 	if ($(this).siblings('p').hasClass('show')) {
-		// 		$(this).siblings('p').removeClass('show')
-		// 	}else{
-
-		// 		$(this).siblings('p').addClass('show');
-		// 	}
-		// });
-
-
-		
-		// $('.ani2').();
-		// $('.ani').delay(100000).css({
-		// 	"opacity": "1",
-		// 	"position": "relative",
-		// 	"right":  "0%",
-		// })
-
-		
-    }); // end document ready function
+	}); // end document ready function
 }(jQuery));
