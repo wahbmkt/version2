@@ -36,9 +36,9 @@
 		
 		
 		const ser_slidr = new Swiper('.ser-sldr', {
-			loop: false,
+			loop: true,
 			autoplay: {
-				delay: 40000000,
+				delay: 4000,
 			},
 			pagination: {
 				el: ".swiper-pagination",
@@ -61,7 +61,7 @@
 					spaceBetween: 40,
 				},
 				1024: {
-					slidesPerView: 3.5,
+					slidesPerView: 3,
 					slidesPerColumn: 2,
 					spaceBetween: 30,
 				},
@@ -85,6 +85,9 @@
 				prevEl: ".swiper-button-prev"
 			},
 			breakpoints: {
+				300: {
+					slidesPerView: 1,
+				},
 				768: {
 					slidesPerView: 2,
 				},
@@ -92,7 +95,7 @@
 					slidesPerView: 2,
 				},
 				1300: {
-					slidesPerView: 2.5,
+					slidesPerView: 2,
 				},
 			},
 		});

@@ -4,8 +4,15 @@
 
 /* Large Device: 1200px. */
 	
+@media (min-width:900px){
 
-@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+	.de-padding {
+		padding: 12.8rem 15rem;
+	  }
+
+}
+@media only screen and (min-width: 1400px)  {
+	
 	.why-area-2{
 		display: none;
 	}
