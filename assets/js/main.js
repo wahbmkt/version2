@@ -35,7 +35,7 @@
 
 		
 		
-		var swiper = new Swiper('.ser-sldr', {
+		const ser_slidr = new Swiper('.ser-sldr', {
 			loop: true,
 			autoplay: {
 				delay: 4000,
@@ -68,7 +68,36 @@
 			},
 		});
 		
-		var swiper = new Swiper('.project-sldr0', {
+
+		const rev_sldr = new Swiper(".review-sldr", {
+			// Optional parameters
+			loop: true,
+			autoplay: {
+				delay: 4000,
+				// deura
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev"
+			},
+			breakpoints: {
+				768: {
+					slidesPerView: 2,
+				},
+				1201: {
+					slidesPerView: 2,
+				},
+				1300: {
+					slidesPerView: 2.5,
+				},
+			},
+		});
+
+		const our_sldr = new Swiper('.project-sldr0', {
 			loop: true,
 			autoplay: {
 				delay: 4000,
@@ -102,38 +131,6 @@
 		});
 		
 		
-		const swiperStageRight = new Swiper(".review-sldr", {
-			// Optional parameters
-			loop: true,
-			autoplay: {
-				delay: 4000,
-				// deura
-			},
-			// freeMode: true,
-			// grabCursor: true,
-			// slidesPerView: 1,
-			// spaceBetween: 30,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			// Navigation arrows
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev"
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-				},
-				1201: {
-					slidesPerView: 2,
-				},
-				1300: {
-					slidesPerView: 2.5,
-				},
-			},
-		});
 	
 		$('.left-hdr-pic').height("+="+"150px");
 		$('.left-hdr-pic .swiper-wrapper').height("+="+"150px");
