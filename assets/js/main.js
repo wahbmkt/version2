@@ -188,7 +188,7 @@
 		$('#close-thnx-card').on('click',()=>{
 			$('#thnx-card').slideUp();
 
-			$('#form-success').hide('slow');
+			$('#form-success').hide();
 			// location.reload()
 		})
 
