@@ -300,12 +300,6 @@ body{
 .service-box-2:hover p{
 color: #fff !important;
 }
-/* .service-box-2:hover  .hover-grid{ */
-    /* opacity: 1; */
-    /* background-color: black; */
-
-
-/* } */
 .service-box-2:hover .hover-grid {
     animation: opc 0.5s ease-in forwards  ;
 }

@@ -6,18 +6,18 @@
 
 		/* ==================================================
 			Preloader Init
-		===============================================*/
-		$('.service-box-2').on('mouseleave',function () {
-			$('.swiper-button-prev').css("color","#024959")
-			$('.swiper-button-next').css("color","#024959")
-		});
+		// ===============================================*/
+		// $('.service-box-2').on('mouseleave',function () {
+		// 	$('.swiper-button-prev').css("color","#024959")
+		// 	$('.swiper-button-next').css("color","#024959")
+		// });
 
-		$('.service-box-2').on('mouseenter',function () {
-			$('.swiper-button-prev').css("color","#fff")
-			$('.swiper-button-next').css("color","#fff")
+		// $('.service-box-2').on('mouseenter',function () {
+		// 	$('.swiper-button-prev').css("color","#fff")
+		// 	$('.swiper-button-next').css("color","#fff")
 			
 			
-		});
+		// });
 
         var mybutton = document.getElementById("scrtop");
 
@@ -36,9 +36,9 @@
 		
 		
 		const ser_slidr = new Swiper('.ser-sldr', {
-			loop: true,
+			loop: false,
 			autoplay: {
-				delay: 4000,
+				delay: 40000000,
 			},
 			pagination: {
 				el: ".swiper-pagination",
