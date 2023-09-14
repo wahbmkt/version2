@@ -167,24 +167,21 @@
 
 		$('.preloader-w').addClass('preloader-deactivate');
 
-		// $('#contact-form1').on
 		let data_form = document.getElementById("contact-form1");
-		data_form.addEventListener('submit', (e) =>{
-			e.preventDefault();
+		if (data_form) {
 			
-
-			let a = $.post( 'https://qarisoft.co/api/whb',$( "#contact-form1" ).serialize());
-			console.log(a)
-			document.getElementById("contact-form1").reset();
-			$('#form-success').show();
-			$('#form-success').css("display","flex");
-			
-			$('#thnx-card').slideDown();
-			
-			// e.target.action='https://qarisoft.co/api/whb'
-			// location.reload();
-			
-		});
+			data_form.addEventListener('submit', (e) =>{
+				e.preventDefault();
+				let a = $.post( 'https://qarisoft.co/api/whb',$( "#contact-form1" ).serialize());
+				console.log(a)
+				document.getElementById("contact-form1").reset();
+				$('#form-success').show();
+				$('#form-success').css("display","flex");
+				$('#thnx-card').slideDown();
+				
+			});
+		}
+		
 		$('#close-thnx-card').on('click',()=>{
 			$('#thnx-card').slideUp();
 
