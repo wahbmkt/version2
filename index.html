@@ -40,7 +40,6 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/css/all.min.css" rel="stylesheet" />
 	<link href="assets/css/animate.css" rel="stylesheet" />
-	<!-- <link href="assets/css/bootstrap-icons.css" rel="stylesheet" /> -->
 	<link href="assets/css/bsnav.min.css" rel="stylesheet" />
 	<link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
 	<link href="assets/sass/style.css" rel="stylesheet">
@@ -50,6 +49,10 @@
 	<!-- ========== End Stylesheet ========== -->
 </head>
 <style>
+	span.swiper-pagination-bullet{
+		min-width: 20px;
+		min-height: 20px;
+	}
 	.review-wpr{
 		padding-right:  50px;
 		padding-left:  50px;
@@ -114,7 +117,7 @@
 						<img src="assets/img/logo/wh.webp" ar class="logo-display" alt="thumb">
 						<img src="assets/img/logo/wh.webp" class="logo-scrolled" alt="thumb">
 					</a>
-					<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"><span class="bty"></span></span></button>
+					<button aria-label="nav-togller" class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"><span class="bty"></span></span></button>
 					<div class="collapse navbar-collapse justify-content-md-end">
 						<ul class="navbar-nav navbar-mobile ani ani-ul">
 							<li class="nav-item dropdown fadeup">
@@ -166,9 +169,9 @@
 						<div class="col-xl-5">
 							<div class="hero-content element-start">
 								<div class="hero-content-desc">
-									<h1 class="hero-title ani ani-p2">
+									<h2 class="hero-title ani ani-p2">
 										وَهْب للخدمات التسويقية 
-									</h1>
+									</h2>
 										<div class="d"></div>
 										<p class="mb-40 ani ani-p2">
 											 وهْبِك نحو الإبداع والتميز
@@ -205,9 +208,9 @@
 				<div class="about-wpr grid-2" >
 					
 					<div class="about-right-2 pl-60 ">
-						<span class="hero-sub-title text-center text-grad mb-20" style="font-size: 3rem;margin-right: auto;
+						<h1 class="hero-sub-title text-center text-grad mb-20" style="font-size: 3rem;margin-right: auto;
 						margin-left: auto;
-						width: 100%;">من نحن</span>
+						width: 100%;">من نحن</h1>
 						<h2 class="heading-1">
 							 <span></span> 
 						</h2>
@@ -928,9 +931,9 @@
 							
 						</div>
 						<div class="subscribe-area mt-10">
-							<form>
-								<input type="text" class="input-style-4" placeholder="الايميل">
-								<button type="submit" class="btn-1 btn-circle btn-sm">اشتراك</button>
+							<form name="subscribe" id="subscribe-id">
+								<input type="text" class="input-style-4" name="email" autocomplete="email" placeholder="الايميل">
+								<button aria-label="subscribe-btn" type="submit" class="btn-1 btn-circle btn-sm">اشتراك</button>
 							</form>
 						</div>
 					</div>
